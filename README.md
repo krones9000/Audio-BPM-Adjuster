@@ -19,14 +19,40 @@ I listen to music when I run to pace me. However, a lot of music that naturally 
 
 - Python 3.6 or later
 - pip (Python package installer)
+- FFmpeg (for audio processing with pydub)
 
 ### Dependencies
 
-Install the required dependencies using pip:
+Install the required Python dependencies using pip:
 
-\```
+```
 pip install streamlit librosa numpy pydub pandas pyrubberband soundfile
-\```
+```
+
+### Setting up FFmpeg
+
+#### Linux
+
+1. Install FFmpeg using your package manager. For example, on Debian-based systems (like Ubuntu):
+
+```
+sudo apt-get install ffmpeg
+```
+
+#### Windows
+
+1. Download FFmpeg from the [official website](https://ffmpeg.org/download.html).
+2. Extract the downloaded archive and place the `ffmpeg` executable in a known location.
+3. Add the location of the `ffmpeg` executable to your system PATH:
+   - Open the Start Search, type in "env", and select "Edit the system environment variables".
+   - In the System Properties window, click on the "Environment Variables" button.
+   - In the Environment Variables window, select the "Path" variable in the "System variables" section and click "Edit".
+   - Click "New" and add the path to the directory containing `ffmpeg.exe`.
+   - Click OK on all windows to close them.
+
+### Path Formatting
+
+- When providing paths in the application, use double backslashes (`\\`) or forward slashes (`/`) in the input field on Windows. For example: `C:\\Users\\YourUsername\\Music` or `C:/Users/YourUsername/Music`.
 
 ### PySoundFile Warning
 
@@ -36,16 +62,16 @@ The application uses `librosa` for BPM detection, which may produce a warning re
 
 1. Clone the repository:
 
-\```
-git clone https://github.com/krones9000/audiobpmadjuster.git
+```
+git clone https://github.com/yourusername/audiobpmadjuster.git
 cd audiobpmadjuster
-\```
+```
 
 2. Run the Streamlit application:
 
-\```
+```
 streamlit run app.py
-\```
+```
 
 3. Enter the path to your music folder in the text input field.
 4. Click the "Analyze BPM" button to analyze the BPM of the audio files in the folder.
