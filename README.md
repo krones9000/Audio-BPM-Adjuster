@@ -2,9 +2,9 @@
 
 A Streamlit application to analyze and adjust the BPM (Beats Per Minute) of audio files in a given folder. This tool is useful for creating a consistent BPM playlist for activities such as running.
 
-I listen to music when I run to pace me. However, a lot of music that naturally falls at the BPM I like sounds horrible to my ears. This app lets you provide your own music and a target BPM and it will adjust the files for you. Will they sound perfect? Hell no! Does it means you can listen to whatever you like instead of nothing but monotonous drum and base? Yes.
+I listen to music when I run to pace me. However, a lot of music that is already at the BPM I prefer is also not music that I like. This app lets you provide your own music and a target BPM and it will adjust the files for you. Will they sound perfect? Hell no! Does it means you can listen to whatever you like instead of nothing but monotonous drum and base? Yes.
 
-**I would not recommend trying to massively alter the BPM of tracks. If they're going to need to double in BPM to hit your target, they probably wont sound great. I've included an analysis step, so that you can check this before you alter the files.** 
+**I would not recommend trying to massively alter the BPM of tracks. If they're going to need to double in BPM to hit your target, they probably wont sound great. I've included an analysis step, so that you can check the BPM of your target songs before you alter the files.** 
 
 ## Features
 
