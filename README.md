@@ -6,7 +6,9 @@ I listen to music when I run to pace me. However, a lot of music that is already
 
 **I would not recommend trying to massively alter the BPM of tracks. If they're going to need to double in BPM to hit your target, they probably wont sound great. I've included an analysis step, so that you can check the BPM of your target songs before you alter the files.** 
 
-![image](https://github.com/user-attachments/assets/3cebca7a-747c-43fd-bcf6-9e63c9d24ab3)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3cebca7a-747c-43fd-bcf6-9e63c9d24ab3" width="500" title="Showing what the interface looks like after completing a BPM change on a folder."/>
+</p>
 
 ## Features
 
