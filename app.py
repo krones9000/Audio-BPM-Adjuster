@@ -62,7 +62,7 @@ def main():
         st.session_state.folder_path = ""
 
     # Step 1: Select folder
-    folder_path = st.text_input("Enter the path to your music folder:", value=st.session_state.folder_path)
+    folder_path = st.text_input("Enter the path to your music folder:  \n(Delete the path if you \"Reset\" in order to resubmit a new path.)", value=st.session_state.folder_path)
     st.session_state.folder_path = folder_path  # Store the folder path in session state
 
     if folder_path and os.path.isdir(folder_path):
